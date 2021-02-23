@@ -1,15 +1,15 @@
-![Senku](https://images8.alphacoders.com/104/1046436.jpg)
+![Senku](https://images5.alphacoders.com/329/329200.jpg)
 # Senku Robot 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/SaitamaRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SaitamaRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AnimeKaizoku/SaitamaRobot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/OnePunchUpdates)
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [SenkuRobot](https://t.me/SenkuRobot).
+Can be found on telegram as [Mizo android users](https://t.me/puituflynn).
 
-The Support group can be reached out to at [Senku Support](https://t.me/SenkuSupport), where you can ask for help about [SenkuRobot](https://t.me/SenkuRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Mizo android users](https://t.me/androidusersmizo), where you can ask for help about [Mizo android users](https://t.me/puituflynn), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Senku Updates](https://t.me/SenkuUpdates) 
+News channel as at [youtube channel](https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ) 
 
 ## How to setup/deploy.
 
@@ -56,8 +56,8 @@ An example `config.py` file could be:
 from SaitamaRobot.sample_config import Config
 
 class Development(Config):
-    OWNER_ID = 254318997  # your telegram ID
-    OWNER_USERNAME = "SonOfLars"  # your telegram username
+    OWNER_ID = 1307180623  # your telegram ID
+    OWNER_USERNAME = "DidikteaTc"  # your telegram username
     API_KEY = "your bot api key"  # your api key, as provided by the @botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     JOIN_LOGGER = '-1234567890' # some group chat that your bot is a member of
