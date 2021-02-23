@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/103/thumb-1920-1031089.jpg"
+SAITAMA_IMG = "https://images8.alphacoders.com/576/576637.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -200,20 +200,20 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text=" 👑 Add Chawngtinleri to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/SenkuUpdates")
+                             text=" 🔔 support group",
+                             url="https://t.me/puituflynn")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
                             url="https://t.me/SenkuRobot?start=help"),
                          InlineKeyboardButton(
-                            text=" ⚡️ Get Started ",
-                             url="https://t.me/SenkuUpdates/4")        
+                            text="🔔 youtube channel",
+                             url="https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ"),       
                        
                      ],
                      [
